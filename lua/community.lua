@@ -8,6 +8,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.utility.mason-tool-installer-nvim" },
   { import = "astrocommunity.pack.dart" },
+  { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- import/override with your plugins folder
 }
