@@ -9,6 +9,9 @@ return {
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
+        shell = jit.os == "Windows" and "nu" or nil,
+        shellcmdflag = jit.os == "Windows" and "-c" or nil,
+        shellxquote = jit.os == "Windows" and "" or nil,
         guifont = jit.os == "OSX" and "MonaspiceNe Nerd Font:h16"
           or jit.os == "Windows" and "Iosevka SS03,Iosevka Nerd Font:h12"
           or "Iosevka SS17,Iosevka Nerd Font:h12",
