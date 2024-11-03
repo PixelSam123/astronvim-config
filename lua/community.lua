@@ -6,6 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.utility.mason-tool-installer-nvim" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
