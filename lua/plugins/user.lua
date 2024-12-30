@@ -30,16 +30,6 @@ return {
   },
 
   {
-    "andweeb/presence.nvim",
-    config = function()
-      require("presence").setup {
-        main_image = "file",
-      }
-    end,
-    event = "User AstroFile",
-  },
-
-  {
     "vuki656/package-info.nvim",
     dependencies = { "MunifTanjim/nui.nvim" },
     event = "BufRead package.json",
