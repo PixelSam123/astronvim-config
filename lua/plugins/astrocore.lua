@@ -20,7 +20,7 @@ return {
       },
       g = { -- vim.g.<key>
         catppuccin_flavour = "mocha",
-        autoformat_enabled = true,
+        autoformat_enabled = false,
         neovide_transparency = 0.945,
       },
     },
