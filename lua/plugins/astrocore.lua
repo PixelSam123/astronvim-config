@@ -55,7 +55,7 @@ return {
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
         catppuccin_flavour = "mocha",
-        neovide_transparency = 0.945,
+        neovide_opacity = 0.945,
       },
     },
     -- Mappings can be configured through AstroCore as well.
